@@ -1,0 +1,46 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"languageName":"csharp","name":"csharp"}]}}
+
+#!markdown
+
+# Ryan's Coding Bootcamp
+
+Our goals for today:
+
+* Set up our programming environment
+* Download the code repository from Github
+* Learn some basics of coding in C#
+* Build a very simple backend that returns a single API endpoint
+* Set up a Vue.js frontend
+* Build a simple interface
+* Add the whole thing to version control
+
+#!markdown
+
+# Coding Basics
+
+Code is made up of a series of commands that are passed on to the computer to complete a task. Different programming languages - like real languages - will use different syntax to accomplish the same goals. Today we will work in two languages: C# and Javascript
+
+C# is a computer programming language made by Microsoft. It is suitable for building software for computers, phones, tablets, even video game consoles. 
+
+JavaScript is another computer programming language, but it's mainly used for websites. 
+
+We will be using them together to make a program that is divided into two parts: a frontend and a backend.
+
+## Backend
+
+A "Backend" is a web server that fills requests, stores data, and keeps track of state. For example, lets say you visit the website Facebook on your computer. First, your device contacts a web server somewhere through a web browser. The web browser provides some identifying information about you to the web server, and asks for a specific page to be shown. In this example, your web browser tells the web server that you are already logged in, provides your credentials, and states that you'd like to see a list of your friends.
+
+The web server includes a database, which is a system that stores information about you. First the web server checks the database for a record of you, and then it looks for the relationships it has stored between you and all of your friends.
+
+
+
+
+Imagine a website where you can log in. C# might be used to check if the username and password match what's in the database.
+
+- **JavaScript Frontend**: When you type in a search box on a website, JavaScript can find the results quickly and show them to you without needing to refresh the whole page.
+
+Complete lines of code, or **statements**, need to end with a semicolon so that the C# **compiler** knows that we have completed giving it an instruction.
+
+A **compiler** turns our C# statements into a file that a computer can execute.

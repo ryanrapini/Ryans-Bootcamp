@@ -1,0 +1,25 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"languageName":"csharp","name":"csharp"}]}}
+
+#!markdown
+
+We will be following [this tutorial](https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-8.0&tabs=visual-studio-code)
+
+```
+dotnet new web -o TodoApi
+cd TodoApi
+code -r ../TodoApi
+```
+
+```
+dotnet dev-certs https --trust
+```
+
+```
+dotnet nuget add source --name nuget.org https://api.nuget.org/v3/index.json
+
+```
+
+
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-8.0&tabs=visual-studio-code
